@@ -4,7 +4,7 @@ int main()
     char name[100];
     int age;
     char hobby[100];
-    gets("%s%d%s",&name,&age,&hobby);
+    gets(name,age,hobby);
     printf("Name: %s",name);
     printf("Age: %d",age);
     printf("Hobby: %s",hobby);
