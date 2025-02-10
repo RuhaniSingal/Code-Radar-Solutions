@@ -7,7 +7,7 @@ int main()
     {
         if(isdigit(c))
         {
-            print("Digit");
+            printf("Digit");
         }
         else{
             if(c=='A'||c=='E'||c=='I'||c=='O'||c=='U'||c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
