@@ -1,16 +1,26 @@
 #include<stdio.h>
-int main()
+#include<stdbool.h>
+bool checkVal(int a,int b,int c)
 {
-    int a,b,c;
-    scanf("%d%d%d",&a,&b,&c);
-    if((a*a)>(b*b + c*c))||((b*b)>(a*a + c*c))||((c*c) > (a*a + b*b))
+    if(a<(b+c)|| b<(a+c) || c<(a+b))
     {
-        printf("Valid");
+        return true;
     }
     else
     {
-        printf("Invalid");
+        return false;
     }
-    return 0;
-    
+}
+int main()
+{
+int a,b,c;
+scanf("%d%d%d",&a,&b,&c);
+if(checkVal(a,b,c))
+{
+    printf("Valid");
+}
+else{
+    printf("Invalid");
+}
+return 0;
 }
