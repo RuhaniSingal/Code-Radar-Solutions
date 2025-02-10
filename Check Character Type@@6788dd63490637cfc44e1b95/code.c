@@ -3,6 +3,7 @@
 int main()
 {
     char c;
+    scanf("%c",&c);
     if(isalnum(c))
     {
         if(isdigit(c))
@@ -23,4 +24,5 @@ int main()
     {
         printf("Special Character");
     }
+    return 0;
 }
