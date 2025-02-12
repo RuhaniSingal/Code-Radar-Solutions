@@ -13,7 +13,7 @@ int main()
     }
     else if(n%3==0)
     {
-        printf("Divisible by 3");;
+        printf("Divisible by 3");
     }
     else{
         printf("Not divisible");
