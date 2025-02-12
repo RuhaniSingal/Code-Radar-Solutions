@@ -5,7 +5,7 @@ int main()
     scanf("%d",&n);
     if(n%3==0 && n%5==0)
     {
-        printf("Divisible by 3");
+        printf("Divisible by Both");
     }
     else if(n%5==0)
     {
@@ -13,7 +13,7 @@ int main()
     }
     else if(n%3==0)
     {
-        printf("Divisible by Both");
+        printf("Divisible by 3");;
     }
     else{
         printf("Not divisible");
