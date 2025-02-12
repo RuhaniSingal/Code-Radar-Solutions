@@ -4,7 +4,7 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    if(Enumerable.Range(1,100).Contains(n));
+    if(n>=1 && n<=100);
     {
     printf("In Range");
     }
