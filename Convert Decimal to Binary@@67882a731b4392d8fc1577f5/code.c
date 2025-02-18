@@ -8,7 +8,7 @@ int main()
     while(n>0)
     {
         int k=n%2;
-        strcat(ch,k);
+        strcat(ch,"k");
         n=n/10;
     }
     printf("%d",ch);
