@@ -7,9 +7,9 @@ int main()
     char ch[50]='\0';
     while(n>0)
     {
-        char k=(char)n%2;
+        int k=n%2;
         strcat(ch,k);
         n=n/10;
     }
-    printf("%d",ch);
+    printf("%d",(int)ch);
 }
