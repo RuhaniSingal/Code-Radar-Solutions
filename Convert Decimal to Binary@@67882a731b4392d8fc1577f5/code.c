@@ -4,14 +4,17 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    char ch[50]=n%2;
-    n=n/10;
+    int ch[50];
+    int i=1;
     while(n>0)
     {
-        int k=n%2;
-        strcat(ch,k);
+        ch[i]=n%2;
         n=n/10;
+        i++;
     }
-    printf("%d",(int)ch);
+    for(int j=i-1;j>=0;j--)
+    {
+        printf("%d",ch[j]);
+    }
     return 0;
 }
