@@ -9,7 +9,7 @@ int main()
     while(n>0)
     {
         ch[i]=n%2;
-        n=n/10;
+        n=n/2;
         i++;
     }
     for(int j=i-1;j>=0;j--)
