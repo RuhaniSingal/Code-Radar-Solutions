@@ -12,4 +12,5 @@ int main()
         n=n/10;
     }
     printf("%d",(int)ch);
+    return 0;
 }
