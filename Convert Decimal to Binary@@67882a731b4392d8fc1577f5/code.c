@@ -5,7 +5,7 @@ int main()
     int n;
     scanf("%d",&n);
     int ch[50];
-    int i=1;
+    int i=0;
     while(n>0)
     {
         ch[i]=n%2;
