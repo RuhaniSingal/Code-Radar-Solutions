@@ -1,11 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int n,p;
-    scanf("%d%d",&n,&p);
-    int k =n>>p;
-    k&1 = 0;
-    int k2=n<<p;
-    printf("%d",k2);
-    return 0;
+    int n,k;
+    scanf("%d%d",&a,&b);
+    int result = n & (~(1<<(k-1)));
+    printf("%d",result);
 }
