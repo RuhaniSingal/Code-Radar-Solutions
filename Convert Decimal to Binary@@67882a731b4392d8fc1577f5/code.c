@@ -4,7 +4,7 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    char ch[50];
+    char ch[50]='\0';
     while(n>0)
     {
         int k=n%2;
