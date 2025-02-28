@@ -1,5 +1,5 @@
 #include<stdio.h>
-int prime(int n){
+int isPrime(int n){
          int count=0;
     for(int i=1;i<=n;i++)
     {
@@ -20,6 +20,6 @@ int prime(int n){
 int main(){
     int k;
     scanf("%d",&k);
-    prime(k);
+    isPrime(k);
     return 0;
 }
