@@ -17,7 +17,7 @@ int prime(int n){
         printf("0");
     }
 }
-int main{
+int main(){
     int k;
     scanf("%d",&k);
     prime(k);
