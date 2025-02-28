@@ -1,5 +1,5 @@
 #include<stdio.h>
-int prime(n){
+int prime(int n){
          int count=0
     for(int i=1;i<=n;i++)
     {
