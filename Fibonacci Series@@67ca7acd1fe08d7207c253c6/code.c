@@ -13,6 +13,7 @@ void fibonacci(int n)
     {
         return (fibonacciSeries(n-1) + fibonacciSeries(n-2));
     }
+    return 0;
 }
 
 int fibonacciSeries(int n)
