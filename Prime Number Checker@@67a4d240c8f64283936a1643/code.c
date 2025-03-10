@@ -7,6 +7,7 @@ int isPrime(int l)
         {
             count++;
         }
+    }
         if(count==2)
         {
             return 1;
@@ -15,7 +16,7 @@ int isPrime(int l)
         {
             return 0;
         }
-    }
+    
     return 0;
 }
 
