@@ -1,11 +1,11 @@
 int isPrime(int k)
 {
     int count=0;
-    for(int i=1;i<=k;i++)
+    for(int l=1;l<=k;l++)
     {
-        if(k%i==0)
+        if(k%l==0)
         {
-            count++;
+            count=count+1;
         }
     }
     if(count==2)
