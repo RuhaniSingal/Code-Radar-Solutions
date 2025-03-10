@@ -18,7 +18,7 @@ int fibonacciSeries(int n)
 {
     for(int i=0;i<n;i++)
     {
-        int fib= fibonacciSeries(i);
+        int fib= fibonacci(i);
         printf("%d",fib);
     }
 }
