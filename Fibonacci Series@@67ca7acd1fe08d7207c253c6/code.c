@@ -7,7 +7,7 @@ int fibonacciSeries(int n)
     }
     else if(n==2)
     {
-        priintf("%d",return (fibonacciSeries(n-1)+1));
+        printf("%d",return (fibonacciSeries(n-1)+1));
     }
     else
     {
