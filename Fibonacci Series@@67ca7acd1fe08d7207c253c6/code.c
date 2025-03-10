@@ -1,5 +1,5 @@
 #include<stdio.h>
-void fibonacci(int n)
+int fibonacci(int n)
 {
     if(n==0)
     {
