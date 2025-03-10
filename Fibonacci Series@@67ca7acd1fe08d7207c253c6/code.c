@@ -7,11 +7,11 @@ int fibonacci(int n)
     }
     else if(n==1)
     {
-        return (fibonacciSeries(n-1)+1);
+        return (fibonacci(n-1)+1);
     }
     else
     {
-        return (fibonacciSeries(n-1) + fibonacciSeries(n-2));
+        return (fibonacci(n-1) + fibonacci(n-2));
     }
     return 0;
 }
