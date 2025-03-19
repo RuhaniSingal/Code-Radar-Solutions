@@ -10,7 +10,7 @@ int findUnsortedSubarray(int arr[],int n)
                 break;
            }     
     }
-    
+
      if (left == -1)
     return 0;
     
@@ -45,6 +45,5 @@ int findUnsortedSubarray(int arr[],int n)
     }
 
     int length_of_subarray = right-left+1;
-    printf("%d",length_of_subarray);
-    return 0;
+    return length_of_subarray;
 }
