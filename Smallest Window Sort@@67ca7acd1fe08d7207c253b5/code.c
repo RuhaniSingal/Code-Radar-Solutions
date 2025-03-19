@@ -18,4 +18,5 @@ int findUnsortedSubarray(int arr[],int n)
     }
     int length_of_subarray = right-left+1;
     printf("%d",length_of_subarray);
+    return 0;
 }
