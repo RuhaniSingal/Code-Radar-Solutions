@@ -1,13 +1,13 @@
 #include<stdio.h>
 void printPallindrome(int n){
+    int temp=1;
+    int temp2=1;
     for(int i=1; i<=n; i++){
         for(int j=1; j<=(n-i); j++){
             printf(" ");
         }
         for(int k=1 ; k<= (2*i)-1 ; k++)
         {
-            int temp=1;
-            int temp2=1;
             int mid= ((2*i-1)/2)+ 1;
             if(k<=mid){
                 printf("%d",temp++);
