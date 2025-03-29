@@ -1,8 +1,8 @@
 #include<stdio.h>
 void printPallindrome(int n){
-    int temp=1;
-    int temp2=1;
     for(int i=1; i<=n; i++){
+        int temp=1;
+        int temp2=1;
         for(int j=1; j<=(n-i); j++){
             printf(" ");
         }
