@@ -15,7 +15,7 @@ void printPallindrome(int n){
                 temp2= temp;
             }
             else{
-                temp2= temp2 - 2;
+                temp2= temp2 - 1;
                 printf("%d",temp2);
             }
         }
