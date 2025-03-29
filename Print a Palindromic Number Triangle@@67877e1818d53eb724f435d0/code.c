@@ -10,7 +10,8 @@ void printPallindrome(int n){
         {
             int mid= ((2*i-1)/2)+ 1;
             if(k<=mid){
-                printf("%d",temp++);
+                printf("%d",temp);
+                temp= temp+1;
                 int temp2= temp;
             }
             else{
