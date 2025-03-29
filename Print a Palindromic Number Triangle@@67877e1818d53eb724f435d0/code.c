@@ -15,10 +15,8 @@ void printPallindrome(int n){
                 temp2= temp;
             }
             else{
-            for(int l2=mid+1; l2<=(2*i-1); l2++){
                 temp2= temp2 - 1;
                 printf("%d",temp2);
-            }
             }
         }
         printf("\n");
