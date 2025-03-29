@@ -1,7 +1,7 @@
 #include<stdio.h>
 void printPallindrome(int n){
     for(int i=1; i<=n; i++){
-        int temp=1;
+        int temp=0;
         int temp2=0;
         int mid = ((2*i-1)/2)+ 1;
         for(int j=1; j<=(n-i); j++){
@@ -10,8 +10,8 @@ void printPallindrome(int n){
         for(int k=1 ; k<= (2*i)-1 ; k++)
         {
             if(k<=mid){
-                printf("%d",temp);
                 temp= temp+1;
+                printf("%d",temp);
                 temp2= temp;
             }
             else{
