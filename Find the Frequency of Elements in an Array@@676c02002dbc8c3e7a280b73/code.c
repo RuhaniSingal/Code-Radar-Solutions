@@ -1,5 +1,5 @@
 #include<stdio.h>
-void element_frequency(int arr, int n)
+void element_frequency(int arr[], int n)
 {
     for(int i=0; i<n;i++)
     {
