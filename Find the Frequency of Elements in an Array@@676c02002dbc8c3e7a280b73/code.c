@@ -3,6 +3,11 @@ void element_frequency(int arr[], int n)
 {
     for(int i=0; i<n;i++)
     {
+        for(int k=0; k<=i; k++){
+            if(arr[k]==arr[i]){
+                break;
+            }
+            else{
         int freq=1;
         for(int j= i+1; j<n; j++){
             if(arr[i]==arr[j])
@@ -16,6 +21,7 @@ void element_frequency(int arr[], int n)
             printf("%d %d",arr[i],freq);
         }
         printf("\n");
+            }
     }
 }
 int main()
