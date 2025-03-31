@@ -24,6 +24,7 @@ void element_frequency(int arr[], int n)
             }
     }
 }
+}
 int main()
 {
     int n;
