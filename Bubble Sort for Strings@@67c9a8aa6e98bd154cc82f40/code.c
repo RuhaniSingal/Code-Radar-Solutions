@@ -6,7 +6,7 @@ void swapStrings(char str1[], char str2[]){
     strcpy(str1,temp);
 }
 
-void bubbleSort(int arr[][100], int n){
+void bubbleSort(char arr[][100], int n){
     for(int i=0; i<(n-1); i++){
         for(int j=i+1; j<n; j++){
             if(strcmp(arr[i],arr[j])>0){
@@ -15,7 +15,7 @@ void bubbleSort(int arr[][100], int n){
         }
     }
 }
-void printArray(int arr[][100], int n){
+void printArray(char arr[][100], int n){
     for(int i=0; i<n; i++){
         printf("%s\n",arr[i]);
     }
