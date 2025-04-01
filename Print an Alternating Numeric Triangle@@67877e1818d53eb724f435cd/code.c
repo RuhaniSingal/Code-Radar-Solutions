@@ -12,10 +12,10 @@ void alternating_triangle(int n){
             }
             else{
                 if(k%2!=0){
-                    printf("1");
+                    printf("0");
                 }
                 else{
-                    printf("0");
+                    printf("1");
                 }
             }
         }
