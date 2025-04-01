@@ -12,6 +12,9 @@ void pyramid_pattern(int n){
                 printf("%d",temp);
                 temp++;
             }
+            else{
+                printf(" ");
+            }
         }
         printf("\n");
     }
