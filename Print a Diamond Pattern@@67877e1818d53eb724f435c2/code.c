@@ -1,39 +1,22 @@
-#include <stdio.h>
-
-void printDiamond(int n) {
-    int i, j, space;
-    
-    // Upper half of the diamond
-    for (i = 1; i <= n; i += 2) {
-        for (space = 0; space < (n - i) / 2; space++) {
+#include<stdio.h>
+void diamond_pattern(int n){
+    //upper triangle
+    for(int i=1; i<=n; i++){
+        for(int j=1; j<=(n-i); j++){
             printf(" ");
         }
-        for (j = 0; j < i; j++) {
+        for(int k=1; k<=i; k++){
             printf("*");
         }
-        printf("\n");
-    }
-    
-    // Lower half of the diamond
-    for (i = n - 2; i >= 1; i -= 2) {
-        for (space = 0; space < (n - i) / 2; space++) {
-            printf(" ");
-        }
-        for (j = 0; j < i; j++) {
+        for(int l=1; l<=(i-1); l++){
             printf("*");
         }
         printf("\n");
     }
 }
-
-int main() {
+int main(){
     int n;
-    scanf("%d", &n);
-    
-    if (n % 2 == 0) {
-        return 1;
-    }
-    
-    printDiamond(n);
+    scanf("%d",&n);
+    diamond_pattern(n);
     return 0;
 }
